@@ -5,6 +5,37 @@
     <title>Lab1</title>
 </head>
 <body>
+<script src="src/classes/1/Animal.js"></script>
+<script src="src/classes/1/Cat.js"></script>
+<script src="src/classes/1/Dog.js"></script>
+<script src="src/classes/1/Woodpecker.js"></script>
+<script src="src/type/GetType.js"></script>
+
+<script>
+    var objDog = new Dog("Sharik", 4, "UA");
+    var objCat = new Cat("Tom", 2, "UA");
+    var objWoodpecker = new Woodpecker("Dodo", 1, "UA");
+
+    console.log("\nSay:");
+    objDog.say();
+    objCat.say();
+    objWoodpecker.say();
+
+    console.log("\ngoAway:");
+    objDog.goAway();
+    objCat.goAway();
+    objWoodpecker.goAway();
+
+    console.log("\ngetType:");
+    getType(objDog);
+    getType(objCat);
+    getType(objWoodpecker);
+
+    console.log("\ngetTypeUp:");
+    getTypeUp.call(objDog);
+    getTypeUp.call(objCat);
+    getTypeUp.call(objWoodpecker);
+</script>
 
 </body>
 </html>
