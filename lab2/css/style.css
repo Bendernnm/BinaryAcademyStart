@@ -1,0 +1,12 @@
+li {
+    margin: 2%;
+    border: 1px solid black;
+    min-height: 10%;
+    max-width: 20.8%;
+}
+
+input, button {
+    text-align: center;
+    font-size: 150%;
+    max-width: 80%;
+}
