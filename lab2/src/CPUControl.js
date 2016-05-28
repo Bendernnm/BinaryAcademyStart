@@ -26,5 +26,5 @@ function checkAllFalse() {
 }
 
 function deleteAll() {
-    $('li').remove();
+    $('li').children(':checked').parent().remove();
 }
