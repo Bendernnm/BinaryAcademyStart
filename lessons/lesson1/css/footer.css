@@ -1,0 +1,21 @@
+#footer {
+    height: 400px;
+    border: 1px firebrick solid;
+}
+
+#footer_content div {
+    width: calc((100% - 6px)/3);
+    height: 200px;
+    float: left;
+    border: 1px lightsalmon solid;
+    background-color: teal;
+}
+
+#last {
+    clear: both;
+    height: 200px;
+    border: 1px darkred solid;
+    background-color: peachpuff;
+    line-height: 200px;
+}
+

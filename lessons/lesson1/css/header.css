@@ -1,0 +1,25 @@
+#header {
+    border: 1px black solid;
+    background-color: #DEDE9C;
+    height: 150px;
+}
+
+#header img {
+    width: 10%;
+    height: 150px;
+    float: left;
+}
+
+#header div {
+    width: 90%;
+    height: 150px;
+    background-color: aquamarine;
+    float: left;
+}
+
+.gv_center {
+    text-align: center;
+    position: relative;
+    top: 36%;
+    /*height: 14%;*/
+}
