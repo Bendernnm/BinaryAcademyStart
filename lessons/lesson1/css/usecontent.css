@@ -92,3 +92,28 @@
     right: 0;
 }
 
+#abUpdate {
+    overflow: hidden;
+}
+
+#abUpdate:after{
+    content: '';
+    width:80px;
+    height:60px;
+    border-top:60px solid crimson;
+    border-left:80px solid transparent;
+    position:absolute;
+    left:245px;
+    top:0;
+}
+
+#abUpdate:before{
+    content: '';
+    width:80px;
+    height:60px;
+    border-top:60px solid aqua;
+    border-left:80px solid crimson;
+    position:absolute;
+    left:235px;
+    top:0;
+}
