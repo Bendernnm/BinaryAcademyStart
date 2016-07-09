@@ -1,5 +1,4 @@
 #content {
-    /*background-color: coral;*/
     margin-left: 7%;
     margin-right: 7%;
     border-radius: 15px;
@@ -9,9 +8,4 @@
 
 #main{
     width: 80%;
-    /*border: 1px solid aqua;*/
-    /*margin-left: 5%;*/
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: flex-start;*/
 }
