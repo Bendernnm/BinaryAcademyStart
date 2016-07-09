@@ -1,16 +1,15 @@
 .blog {
-    width: 75%;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     display: flex;
     justify-content: space-around;
-    margin-top: 5%;
     padding: 1%;
 }
 
 .text_page {
     background-color: greenyellow;
-    width: 25%;
+    width: 40%;
     padding: 3%;
+    padding-bottom: 5px;
     text-align: justify;
     align-content: space-around;
     border-radius: 15px;
@@ -19,4 +18,10 @@
 
 .text_page h2 {
     text-align: center;
+}
+
+#blogs {
+    width: 100%;
+    /*background-color: white;*/
+    /*margin-left: 5%;*/
 }

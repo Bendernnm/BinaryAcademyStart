@@ -1,6 +1,17 @@
 #content {
-    background-color: coral;
+    /*background-color: coral;*/
     margin-left: 7%;
     margin-right: 7%;
     border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main{
+    width: 80%;
+    /*border: 1px solid aqua;*/
+    /*margin-left: 5%;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: flex-start;*/
 }

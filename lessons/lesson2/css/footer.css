@@ -1,11 +1,22 @@
-footer section{
+footer section {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-footer section p{
+footer section p {
     font-size: smaller;
     color: aliceblue;
     margin-right: 1%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    margin-left: 2%;
+    margin-right: 2%;
 }
