@@ -46,9 +46,3 @@
         padding-top: 10%;
     }
 }
-
-@media all and (max-width: 700px) {
-    #hobby {
-        display: none;
-    }
-}

@@ -1,3 +1,14 @@
+@media all and (max-width: 900px){
+    #main{
+        width: 100%;
+    }
+
+    .text_page{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
 @media all  and (max-width: 700px) {
     header {
         border: none;
@@ -15,15 +26,7 @@
         display: flex;
         justify-content: center;
     }
-}
 
-@media all and (max-width: 420px) {
-    header{
-        border: 5px solid black;
-    }
-}
-
-@media all and (max-width: 700px) {
     nav {
         border: none;
         background-color: transparent;
@@ -45,9 +48,26 @@
         margin-right:  10px ;
         padding: 8px;
     }
+
+    footer{
+        padding: 2%;
+        border: none;
+    }
+
+    footer section {
+        display: none;
+    }
+
+    #hobby {
+        display: none;
+    }
 }
 
-@media screen and (max-width: 420px) {
+@media all and (max-width: 420px) {
+    header{
+        border: 1px solid black;
+    }
+
     nav {
         background-color: transparent;
     }
@@ -69,14 +89,3 @@
         font-size: large;
     }
 }
-
-@media all and (max-width: 700px) {
-    #main{
-        width: 100%;
-    }
-    .text_page{
-        width: 80%;
-        margin-bottom: 20px;
-    }
-}
-
