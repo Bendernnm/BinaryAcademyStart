@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <link href="css/header.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/content/content.css" rel="stylesheet">
+    <link href="css/content/aside/aside-hobby.css" rel="stylesheet">
+    <link href="css/content/aside/aside-contact.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
     <link href="css/other.css" rel="stylesheet">
     <title>Little Blog</title>
@@ -25,11 +29,75 @@
     </section>
 </header>
 
-<nav></nav>
+<nav>
+    <section id="menu_items">
+        <a href="#">Інормація</a>
+        <a href="#">Хобі</a>
+        <a href="#" onclick="alert('Блог створений для виконання завдання на крусах від Binary Studio Academy.');">Про
+            блог</a>
+        <a href="#" onclick="alert('Всі можливі контакти можна переглянути нижче.');">Контакти</a>
+    </section>
+</nav>
 
 <section id="content">
-    <aside></aside>
-    <section id="main"></section>
+    <aside id="hobby">
+        <h2>Хобі</h2>
+        <hr>
+        <section>
+            <article>
+                <a href="https://vk.com/tproger" target="_blank">
+                    <br>
+                    <img src="res/img/aside/tp.jpg">
+
+                    <p>Tproger</p>
+                </a>
+            </article>
+            <article>
+                <a href="https://vk.com/proglib" target="_blank">
+                    <br>
+                    <img src="res/img/aside/lib.jpg">
+
+                    <p>Library</p>
+                </a>
+            </article>
+            <article>
+                <a href="https://vk.com/iamdev" target="_blank">
+                    <br>
+                    <img src="res/img/aside/iad.jpg">
+
+                    <p>I am a DEVELOPER</p>
+                </a>
+            </article>
+        </section>
+        <hr>
+        <br>
+    </aside>
+    <section id="main">
+        <aside id="contact">
+            <a href="https://vk.com/bender_nnm" target="_blank">
+                <img src="res/icon/contact/vk.png" align="bottom"> <span>vk</span>
+            </a>
+
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="res/icon/contact/facebook.png" align="bottom"> <span>facebook</span>
+            </a>
+            <br>
+
+            <a href="https://twitter.com/BenderD1mon" target="_blank">
+                <img src="res/icon/contact/twitter.png" align="bottom"> <span>twitter</span>
+            </a>
+            <br>
+
+            <a href="https://plus.google.com/u/0/103994569396050518798/about" target="_blank">
+                <img src="res/icon/contact/gmail.png" align="bottom"> <span>gmail</span>
+            </a>
+            <br>
+        </aside>
+
+        <section id="blog">
+
+        </section>
+    </section>
 </section>
 
 <footer>

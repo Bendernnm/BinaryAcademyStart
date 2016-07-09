@@ -1,0 +1,37 @@
+#hobby {
+    background-color: #ffffff;
+    width: 15%;
+
+    border-radius: 15px;
+}
+
+#hobby h2 {
+    padding-top: 10%;
+    text-align: center;
+}
+
+#hobby hr {
+    width: 50%;
+}
+
+#hobby img {
+    width: 50%;
+}
+
+#hobby section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 5%;
+}
+
+#hobby article {
+    text-align: center;
+    border: 1px solid black;
+}
+
+#hobby a {
+    text-decoration: none;
+    color: black;
+}

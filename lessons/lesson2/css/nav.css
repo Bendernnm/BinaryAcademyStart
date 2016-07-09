@@ -1,0 +1,27 @@
+nav {
+    background-color: #8e24aa;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 5%;
+    border-radius: 12px;
+    border: 2px #4a148e solid;
+}
+
+nav section {
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+nav a:hover{
+    color: darkorange;
+}

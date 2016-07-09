@@ -1,0 +1,15 @@
+#contact {
+    background-color: coral;
+    border-radius: 15px;
+    border: 1px solid black;
+    width: 10%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact a{
+    padding: 10%;
+    text-decoration: none;
+    color: black;
+}
