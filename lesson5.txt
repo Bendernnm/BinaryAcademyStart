@@ -14,7 +14,8 @@ db.student.aggregate(
 	}
 );
 
-db.student.find({'scores.score': {$gt: 87,$lt: 93}}) - неробоче
+db.student.find({'scores.score': {$gt: 87,$lt: 93}}) - неробоче, переробив потім на
+db.student.find({ scores: { $elemMatch:{ score: { $gt: 87, $lt: 93 } } } })
 
 2) 
 db.student.aggregate(
