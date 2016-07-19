@@ -1,0 +1,37 @@
+# BinaryAcademyStart lesson5 MongoDB
+1)
+db.student.aggregate(
+	{$unwind: "$scores"},
+	{
+		$match:
+			{
+				"scores.score":
+					{
+						$gt: 87,
+						$lt: 93
+					}
+			}
+	}
+);
+
+db.student.find({'scores.score': {$gt: 87,$lt: 93}}) - неробоче
+
+2) 
+db.student.aggregate(
+	{$unwind: "$scores"},
+	{
+		$match:
+		{
+			"scores.type": "exam", 
+			"scores.score":{$gt: 90}
+		}
+	}
+);
+
+3)
+db.student.update(
+	{name: 'Dusti Lemmond'}, 
+	{
+		$set: {'accepted': true}
+	}, 
+	false, true);
